@@ -1,0 +1,452 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsfonts}
+\usepackage{fancyhdr} % Custom headers and footers
+\usepackage{xfrac}
+\usepackage{graphicx}
+
+% Create horizontal rule command with 1 argument of height
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}}
+
+% Header and Footers
+\pagestyle{fancy}
+\fancyhead{} % No page header
+\fancyfoot[C]{} % Empty left footer
+\fancyfoot[L]{\textsc{last revised \today}} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0.5pt} % Remove footer underlines
+%\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+% sensible paragraph settings
+\setlength{\parskip}{0.4cm}
+\setlength{\parindent}{0pt}
+
+% set up the section / subsection details
+\renewcommand{\thesection}{Article \arabic{section}}
+\renewcommand{\thesubsection}{Section \arabic{subsection}}
+
+\begin{document} 
+
+\begin{titlepage}
+  \centering
+  \vspace*{\fill}
+  \normalfont \normalsize 
+  \textsc{rice university} \\
+  \horrule{0.5pt} \\[0.5cm] % Thin top horizontal rule
+  \huge $\mathbb{R}$ice $\mathbb{D}$ata$\mathbb{S}$ci Constitution \\
+  \horrule{2pt} % Thick bottom horizontal rule
+  \vspace{1cm}
+  \begin{figure}[htpb]
+    \centering
+    \includegraphics[width=0.5\linewidth]{./rds_badge.png}
+  \end{figure}
+  \vspace*{\fill}
+\end{titlepage}
+
+\newpage
+\section{Name and Purpose}
+
+\subsection{Name}
+The name of this organization is \underline{Rice DataSci}, commonly abbreviated
+RDS.
+
+\subsection{Purpose}
+
+RDS will be the club supporting Data Science activities at Rice, specifically 
+striving to:
+\begin{enumerate} 
+
+  \item Develop Rice University students into sophisticated data analysts
+    through hands on projects and educational events;
+
+  \item Broadly encourage numerical literacy, clear communication, and
+    teamwork among Rice Students in an exceedingly data-driven world;
+  
+  \item Foster community and create a unified social hub for the broader Rice
+    Data Science community; and
+  
+  \item Provide networking opportunities within industry and academia for
+    internship, job and research opportunities.
+
+\end{enumerate}
+
+
+\section{Date of Last Revision}
+
+As indicated in the footer, this document was last revised on \today.
+
+\section{Organizational Structure}
+
+\subsection{Workshops}
+
+RDS will organize 2-3 high-quality workshops per semester.  These workshops
+will be 2-3 hour long sessions which focus on a specific element of a Data
+Scientist's workflow.  Ideally, these workshops should be designed so that each
+attendee will leave with the knowledge and machinery to go from ``data''
+$\rightarrow$ ``results''.  The topics / datasets chosen for a workshop should
+be at least somewhat motivated by club member feedbck.  While all club officers
+are encouraged to help design and implement these workshops, the Internal Vice
+President shall lead this effort.
+
+\subsection{Speakers}
+
+RDS will host 1-2 high-quality speakers from academia or industry per semester.  The
+topics of course, will ultimatly be chosen by the speaker, but suggestions should
+be at least somewhat motivated by club member feedback.  Club members are encouraged
+to interact with the speaker.  While all club officers are encouraged to help
+source and secure speakers, the External Vice President shall lead this effort.
+
+\subsection{Datathon}
+
+RDS will host a Datathon in the Spring Semester of the current term.  The
+Datathon should take place before Officer Election.  The Datathon will be a
+collaboration between RDS and the newly formed Rice Data2Knowledge Lab.  
+
+\subsection{Office Hours}
+
+RDS will host weekly office hours to promote a community among its members.
+All officers should try to make themselves available for at least 1 hour per
+week.  Ideally officers can blanket a contiguous 2 hour timespan.  All RDS
+members are encouraged to stop by for help with Data Science related
+schoolwork, personal projects, or professional advice.
+
+\section{Membership}
+
+\subsection{Membership Requirements}
+
+Member of RDS shall meet the following criteria:
+\begin{enumerate}
+  \item Be a current undergraduate student at Rice University
+  \item Be signed up for the RDS mailing list
+  \item Attend at least two RDS events every academic year
+  \item Sign up on the yearly roster
+\end{enumerate}
+
+RDS activities are generally targeted towards members only, although non-member
+undergraduates interested in joining RDS are encouraged to attend club events.
+Non-members who are not interested in joining may attend RDS events if an
+officer explicitly invites them to a specific event or activity.
+
+\subsection{Membership Removal}
+
+Should a member act in a manner unbecoming a Rice student, the member may be
+called before the officers and sponsor of the organization to explain their
+actions. After such a hearing, the officers may vote to remove the member by a
+majority vote. The member shall be notified of the officers' decision in
+writing within 48 hours.
+
+\section{Officers}
+
+\subsection{Responsibilities of Officers}
+
+Officers are not limited to the responsibilities defined here and should take
+on additional responsibility to ensure the smooth functioning of RDS. Officers
+may interchange responsibilities to suit their strengths and preferences.
+Officers may create committees and recruit members as necessary to help fulfill
+their responsibilities.
+
+% ------------------------------------------------------------------------------
+
+\subsubsection{President}
+
+\begin{enumerate}
+
+  \item Act as the chief executive of RDS and ensure that this constitution and
+    the laws of the student body are faithfully executed.
+     
+  \item Serve as the liaison between RDS and relevant organizations such as Rice
+    University academic departments and associations. 
+
+  \item Preside over RDS officer meetings, occuring on weekly basis. 
+
+  \item Conduct elections and ensure the succession of officer positions. 
+
+  \item Perform any administrative power or duty not provided for in this
+    constitution.
+
+\end{enumerate}
+
+% ------------------------------------------------------------------------------
+
+\subsubsection{Internal Vice President}
+
+\begin{enumerate}
+
+  \item Exercise presidential duties in absence of the President, and assume
+    Presidential office upon vacancy. 
+
+  \item Send out a weekly Data Science digest, nick-named the "DataGest",
+    containing but not limited to details on RDS events, talks at Rice,
+    research and job opportunities.
+
+  \item Put on a series of educational workshops on aspects of Data Science
+    which RDS members have expressed interest in.
+
+  \item Curate and distribute educational resources for RDS members.
+
+  \item Help RDS members find research and job opportunities.
+
+  \item Ensure that club members have opportunities to practice public
+    speaking, teamwork, and delegation. 
+
+\end{enumerate}
+
+% ------------------------------------------------------------------------------
+
+\subsubsection{External Vice President}
+
+\begin{enumerate}
+
+  \item Handle and maintain external communications for the club. 
+
+  \item Host a series (1-3 per semester) of research presentations from members
+    of academia and industry.
+
+  \item Coordinate club efforts for sponsorship, acting as the single point of
+    contact to companies, however in some cases actual communication may happen
+    through another officer or member, if appropriate.
+
+  \item Help RDS members find research and job opportunities.
+
+\end{enumerate}
+
+% ------------------------------------------------------------------------------
+
+\subsubsection{Datathon Chair}
+\begin{enumerate}
+  \item Coordinate Datathon sponsorship in with the External Vice President.
+
+  \item Assemble and oversee the Datathon committee to distribute workload for
+    the event. 
+
+  \item Compile feedback for following RDS Datathons.
+
+  \item Work closely with the club sponsor, Genevera Allen, to promote and 
+    run the Datahon in collaboration with the Rice Data2Knowledge Lab.
+\end{enumerate}
+
+% ------------------------------------------------------------------------------
+
+\subsubsection{Treasurer}
+\begin{enumerate}
+  \item Ensure that RDS operates within budget and effectively uses campus and
+    monetary resources. 
+
+  \item Coordinate purchasing of food / drinks when provided at club events. 
+
+  \item Manage club reimbursement. 
+
+  \item Maintain the membership roster, RDS member contact information sheet
+    and record meeting. 
+
+  \item Establish a yearly budget, which shall be approved by a \sfrac{2}{3}
+    officer majority. 
+\end{enumerate}
+
+% ------------------------------------------------------------------------------
+
+\subsubsection{Social Chair}
+
+\begin{enumerate}
+  \item Maintain an active social media presence for RDS on Twitter, Facebook
+    and other social media as seen fit. 
+
+  \item Organize social events that foster community among members. 
+
+  \item Recruit Rice University undergraduates into the club and Data Science
+    related activities.
+\end{enumerate}
+
+% ------------------------------------------------------------------------------
+
+\subsubsection{Responsibilities assumed by any qualified and willing officer}%
+
+\begin{enumerate}
+  \item Maintain and update the club mailing list and website.
+    
+  \item Maintain and document the Club's digital resources, such as online accounts,
+    passwords, and cloud resources.
+
+  \item Take minutes during meetings.
+
+  \item Design and create posters, flyers, and other adverti
+  \item Draft sponsorship documents for 
+\end{enumerate}
+    
+\subsection{Office Term and Elections}
+
+Officers will holder office from the time they are elected until the next
+election. RDS will hold a general election annually during the spring semester
+to elect new officers. Only members of RDS as defined in the Constitution may
+vote in elections. Candidates may only run for a single position and the
+candidate receiving the majority vote wins.
+
+\subsection{Officer Eligibility}
+
+\begin{enumerate}
+  \item Candidates for officer positions must be current Rice University
+    freshmen, sophomores, or juniors. Sophomores and juniors must have declared
+    as STAT, COMP, ECE, CAAM or MATH majors. 
+
+  \item All officers must be active (not studying abroad or taking time off)
+    during their tenure. 
+\end{enumerate}
+
+\subsection{Removal process}
+
+Should an officer act in a manner unbecoming of an officer of the organization
+or fail to uphold his or her duties as outlined by this constitution, the other
+offices may vote to remove the offending officer by a \sfrac{2}{3} or greater
+vote. The offending officer shall be notified of the decision in writing within
+24 hours.
+
+
+\section{Election Procedure}
+
+Elections shall follow the following procedure:
+\begin{enumerate}
+  \item Elections for the following school year will take place in the last 
+    two months of the current school year.
+
+  \item An Officer Interest Form shall be sent to the RDS listserv at least two
+    weeks before the election takes place.  The form will include descriptions
+    of each position.
+
+  \item An election ballot, compiled from the Officer Interest Form, will be sent
+    to the RDS listserv with voting open at least 1 full week.
+
+  \item For each position, an officer will be selected using a simple majority
+    of votes from members as defined in the membership section.
+\end{enumerate}
+
+
+\section{Officer Meetings}
+
+\subsection{Frequency}
+
+\begin{enumerate}
+  \item One, 30 minute meeting per week
+    
+  \item May cancelled with a \sfrac{2}{3} officer majority vote
+\end{enumerate}
+
+\subsection{Attendance Policy}
+
+\begin{enumerate}
+  \item Officers must be present for each meeting, provided they are available
+
+  \item If an officer is not present, they must present a report of their
+    contributions since the last meeting in a supported communication channel
+    (Slack, Messenger, Appending to Meeting Notes)
+\end{enumerate}
+
+\subsection{Format}
+
+\begin{enumerate}
+  \item Meeting notes will be taken detailing club accomplishments since the
+    last meeting, goals for the following week, and any longer term goals to
+    keep track of.
+
+  \item Meeting notes shall be stored in the Rice DataSci Team Google Drive.
+
+  \item Meetings will begin with each officer providing a review of their
+    accomplishments over the past week.
+
+  \item The bulk of meetings will consist of planning for the following week.
+    
+  \item Meetings will conclude with a task list being added to the Rice DataSci
+    Team Trello Board, including delegation of tasks as well as appropriate due
+    dates.
+
+  \item Meeting notes will be sent out the Rice DataSci Officer's listserv, 
+    encouraging review by Officers who missed, as well as our Faculty Sponsor.
+\end{enumerate}
+
+
+% ------------------------------------------------------------------------------
+
+
+\section{Financial Procedures}
+
+For each academic year, the Treasurer will propose an annual budget. The budget
+must be approved by a \sfrac{2}{3} majority vote of the officers. Any officer
+may spend RDS funds as deemed appropriate within these budgetary constraints
+provided the Treasurer approves. Use of funds for items not in the budget must
+be approved by a \sfrac{2}{3} majority vote of the officers. The budget may be
+modified as necessary upon \sfrac{2}{3} majority vote by the officers. All
+funds collected by or on behalf of the organization must be deposited within
+one business day of receipt. RDS will not charge dues.
+
+
+% ------------------------------------------------------------------------------
+
+
+\section{Faculty Advisor}
+
+\begin{enumerate}
+  \item RDS will have at least one full-time faculty advisor to advise the
+    officers of the RDS officers on matters pertaining to Rice DataSci. 
+
+  \item RDS officers may designated new advisors with approval from the current
+    designated advisor(s). 
+
+  \item Advisors shall serve until they resign or are replaced. 
+
+  \item Advisor shall have no direct authority over the Rice DataSci officers or
+    members.  
+\end{enumerate}
+
+% ------------------------------------------------------------------------------
+
+
+\section{Nondiscrimination policy}
+
+This organization will not discriminate against individuals or groups on the
+basis of race, color, religion, sex, sexual orientation, gender identity,
+national or ethnic origin, ancestry, age, disability, or veteran status.
+
+\section{Anti-hazing policy}
+
+This organization will not engage in any form of hazing, as defined by the Code
+of Student Conduct and any other applicable Rice University rules or
+regulations.
+
+
+\section{Primacy Clause}
+
+Rice DataSci recognizes the primacy of the Student Association Executive
+Committee, the Student Senate, and ultimately, the Student Association. Rice
+DataSci will adhere to the Constitution of the Student Association and any
+associated rules and regulations. The constitution and bylaws of this
+organization are subordinate to the Constitution of the Student Association.
+
+
+\section{Amendments}
+
+\begin{enumerate}
+  \item An amendment to this constitution may be proposed by Club members or by
+    officers. 
+
+  \item After the amendment proposal, it must first approved unanimously by all
+    Club officers. 
+
+  \item After the unanimous approval from officers, voting for the addition of
+    the amendment may occur. Eligible voters are club members. The voting must
+    occur on a specific date, stated to the club members at least two weeks
+    prior. For the amendment to be added to the constitution, there must be a
+    majority affirmative vote by the members.  
+\end{enumerate}
+
+\subsection{SA approval of constitutional changes}
+
+Proposed amendments to this constitution shall be submitted to the Student
+Association Parliamentarian for approval. Proposed amendments may only be
+approved by the Student Association Parliamentarian or the Student Senate in
+accordance with the Constitution of the Student Association and may not take
+effect prior to that approval. The Date of Last Revision on the title page of
+this constitution shall be updated to reflect the date of the Parliamentarian
+or Senate’s approval.
+
+\end{document}
